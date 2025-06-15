@@ -7,7 +7,7 @@ export default function ProjectsSection() {
 		<section className="py-20 px-4">
 			<div className="max-w-6xl mx-auto">
 				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-16 text-center">
-					Full Stack Projects
+					Machine Learning Projects
 				</motion.h2>
 
 				<div className="space-y-16">
@@ -22,9 +22,9 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4">Enterprise E-commerce Platform</h3>
+										<h3 className="text-2xl font-bold mb-4">Seller-buyer chatbot Platform</h3>
 										<p className="text-gray-400">
-											A high-performance e-commerce solution handling 100K+ daily transactions with real-time inventory and ML-powered recommendations.
+											A high-performance AI-CHATBOT solution handling 100K+ daily queries with real-time inventory and ML-powered recommendations using langgraph.
 										</p>
 									</div>
 
@@ -32,19 +32,18 @@ export default function ProjectsSection() {
 										<div>
 											<h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Architecture</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Next.js Server Components</li>
-												<li>• Real-time Cart & Inventory</li>
-												<li>• Stripe Payment Integration</li>
-												<li>• PWA with Offline Support</li>
+												<li>• streamlit</li>
+												<li>• js</li>
+												<li>• css</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-400 mb-3">Backend Systems</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Node.js Microservices</li>
-												<li>• Redis Caching Layer</li>
-												<li>• Kafka Event Streaming</li>
-												<li>• Elasticsearch Product Search</li>
+												<li>• python</li>
+												<li>• tools</li>
+												<li>• Azure models</li>
+												<li>• OpenAI query Search</li>
 											</ul>
 										</div>
 									</div>
@@ -53,8 +52,8 @@ export default function ProjectsSection() {
 										<h4 className="text-sm font-semibold text-teal-400">Key Achievements</h4>
 										<ul className="space-y-2 text-sm text-gray-400">
 											<li>• 99.99% Uptime with Blue-Green Deployment</li>
-											<li>• 300ms Average API Response Time</li>
-											<li>• 45% Reduction in Infrastructure Costs</li>
+											<li>• 200ms Average API Response Time</li>
+											<li>• 80% Reduction in human interaction</li>
 										</ul>
 									</div>
 								</div>
@@ -68,7 +67,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="20" width="360" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<text x="200" y="45" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Next.js Frontend (SSR + Client Components)
+													streamlit Frontend ( Client Components)
 												</text>
 											</g>
 
@@ -77,10 +76,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="80" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<rect x="210" y="80" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="105" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Product Service
+													supervisor Service
 												</text>
 												<text x="295" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Order Service
+													supervisor Service
 												</text>
 											</g>
 
@@ -88,7 +87,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="140" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="200" y="160" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Redis Cache Layer
+													tools
 												</text>
 											</g>
 
@@ -97,10 +96,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="190" width="170" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<rect x="210" y="190" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="105" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Product DB (PostgreSQL)
+													prompt
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Order DB (MongoDB)
+													azure models
 												</text>
 											</g>
 
@@ -108,7 +107,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="250" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="200" y="270" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Elasticsearch Product Search
+													OPENAIsearch  Search
 												</text>
 											</g>
 
@@ -141,27 +140,18 @@ export default function ProjectsSection() {
 									<div>
 										<h3 className="text-2xl font-bold mb-4">Real-time Analytics Platform</h3>
 										<p className="text-gray-400">
-											A scalable analytics platform processing 1M+ events per minute with real-time dashboards and ML-powered insights.
+											A real-time intelligent parsing system leveraging GPT-4.0-mini via PromptFlow for seamless data extraction across product descriptions, images, invoices, and payments.
 										</p>
 									</div>
 
 									<div className="grid grid-cols-2 gap-6">
 										<div>
-											<h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Features</h4>
+											<h4 className="text-sm font-semibold text-blue-400 mb-3">BackEnd Features</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Real-time Data Visualization</li>
-												<li>• Interactive Dashboards</li>
-												<li>• Custom Chart Components</li>
-												<li>• Data Export Tools</li>
-											</ul>
-										</div>
-										<div>
-											<h4 className="text-sm font-semibold text-purple-400 mb-3">Backend Pipeline</h4>
-											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Apache Kafka Streams</li>
-												<li>• ClickHouse Analytics DB</li>
-												<li>• Python Data Processing</li>
-												<li>• Redis Time Series</li>
+												<li>• promptFlow</li>
+												<li>•Azure model</li>
+												<li>• yaml files</li>
+												<li>• Fast API</li>
 											</ul>
 										</div>
 									</div>
@@ -186,13 +176,13 @@ export default function ProjectsSection() {
 												<rect x="145" y="20" width="110" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<rect x="270" y="20" width="110" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<text x="75" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Web Events
+													FastAPI
 												</text>
 												<text x="200" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Mobile Events
+													LLM: GPT-4.0-mini
 												</text>
 												<text x="325" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													API Events
+													PromptFlow
 												</text>
 											</g>
 
@@ -200,7 +190,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="80" width="360" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="200" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Kafka Event Streaming
+													find the type of file 
 												</text>
 											</g>
 
@@ -209,10 +199,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="150" width="170" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<rect x="210" y="150" width="170" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="105" y="175" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Stream Processing
+													extract the text
 												</text>
 												<text x="295" y="175" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Batch Processing
+													identify the file context
 												</text>
 											</g>
 
@@ -221,10 +211,11 @@ export default function ProjectsSection() {
 												<rect x="20" y="220" width="170" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<rect x="210" y="220" width="170" height="30" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="105" y="240" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													ClickHouse
+													get prompt instructions
 												</text>
 												<text x="295" y="240" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Redis Time Series
+													find the keys
+
 												</text>
 											</g>
 
@@ -232,7 +223,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="270" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="200" y="290" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													GraphQL API Layer
+													return the values
 												</text>
 											</g>
 

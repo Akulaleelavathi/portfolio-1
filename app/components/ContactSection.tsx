@@ -9,7 +9,7 @@ export default function ContactSection() {
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="space-y-8">
 					<h2 className="text-3xl font-bold">Let&apos;s Build Something Amazing</h2>
 					<p className="text-gray-400 max-w-2xl mx-auto">
-						Looking for a full-stack developer who can architect and implement complete solutions? Let&apos;s discuss your project.
+						Looking for a Machine Learning developer who can architect and implement complete solutions? Let&apos;s discuss your project.
 					</p>
 
 					{/* Location */}
@@ -23,13 +23,13 @@ export default function ContactSection() {
 							/>
 							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 						</svg>
-						<span>San Francisco, CA</span>
+						<span>Hyderabad</span>
 					</div>
 
 					{/* Contact Buttons */}
 					<div className="flex flex-col sm:flex-row justify-center gap-4">
 						<a
-							href="mailto:david@example.com"
+							href="mailto:leelavathiakula1122@gmail.com"
 							className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-2"
 						>
 							<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -39,7 +39,7 @@ export default function ContactSection() {
 							Get in Touch
 						</a>
 						<a
-							href="/resume.pdf"
+							href="/leelavathiakula.pdf"
 							target="_blank"
 							className="px-8 py-3 bg-black border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors inline-flex items-center justify-center gap-2"
 						>

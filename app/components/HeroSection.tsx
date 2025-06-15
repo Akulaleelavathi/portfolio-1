@@ -16,23 +16,25 @@ export default function HeroSection() {
 				<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8 md:mb-12">
 					<div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
 						<h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500">
-							David Miller
+							Leela Akula
 						</h1>
-						<h2 className="text-2xl md:text-4xl font-bold text-white">Full Stack Developer</h2>
+						<h2 className="text-2xl md:text-4xl font-bold text-white">Machine learning Developer</h2>
 						<p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-							I craft end-to-end solutions with 8+ years of experience building scalable applications and leading development teams.
+							I am passionate about crafting intelligent, production-ready systems that transform raw data into actionable insight.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
-							Previously Senior Full Stack Developer at <span className="text-blue-400">Stripe</span> and Tech Lead at{' '}
-							<span className="text-purple-400">Vercel</span>
+							Machine Learning engineer at <span className="text-blue-400">Zotok</span> 
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8">
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">TypeScript</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">React & Next.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Node.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">ML</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-500/10 rounded-full text-teal-400 text-xs md:text-sm">Azure</span>
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">Python</span>
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">AWS</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">prompt engineering</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">TypeScript</span>
+
+
 					</div>
 				</motion.div>
 
@@ -53,11 +55,11 @@ export default function HeroSection() {
 								onMouseEnter={() => setSelectedStack('frontend')}
 								onMouseLeave={() => setSelectedStack(null)}
 							>
-								<h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-blue-400">Frontend Development</h3>
+								<h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-blue-400">Machine Learning</h3>
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-										Modern React Architectures
+										Model Architectures
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
@@ -65,7 +67,7 @@ export default function HeroSection() {
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-										Responsive & Interactive UIs
+										intelligent retrieval Mechanisms.
 									</li>
 								</ul>
 							</div>
@@ -103,19 +105,19 @@ export default function HeroSection() {
 								onMouseEnter={() => setSelectedStack('devops')}
 								onMouseLeave={() => setSelectedStack(null)}
 							>
-								<h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-teal-400">DevOps & Cloud</h3>
+								<h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-teal-400">Prompt Engineering</h3>
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-400">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										AWS Infrastructure
+										Designing effective prompts for LLMs
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										CI/CD Pipelines
+										Contextual input formatting 
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										Scalable Architecture
+										Tools: LangChain, PromptFlow, PromptLayer, Guidance
 									</li>
 								</ul>
 							</div>
