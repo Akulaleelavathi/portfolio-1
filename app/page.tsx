@@ -6,7 +6,7 @@ import ContactSection from './components/ContactSection';
 
 export default function FullStackPortfolio() {
 	return (
-		<main className="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-900">
+		<main className="min-h-screen bg-gradient-to-b from-gray-950 to-black text-white">
 			<HeroSection />
 			<ProjectsSection />
 			<ContactSection />
