@@ -32,16 +32,17 @@ export default function ProjectsSection() {
 										<div>
 											<h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Architecture</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• streamlit</li>
-												<li>• js</li>
-												<li>• css</li>
+												<li>• Streamlit</li>
+												<li>• JS</li>
+												<li>• Css</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-400 mb-3">Backend Systems</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• python</li>
-												<li>• tools</li>
+												<li>• Langgraph</li>
+												<li>• Python</li>
+												<li>• Tools</li>
 												<li>• Azure models</li>
 												<li>• OpenAI query Search</li>
 											</ul>
@@ -51,7 +52,7 @@ export default function ProjectsSection() {
 									<div className="space-y-3">
 										<h4 className="text-sm font-semibold text-teal-400">Key Achievements</h4>
 										<ul className="space-y-2 text-sm text-gray-400">
-											<li>• 99.99% Uptime with Blue-Green Deployment</li>
+											<li>• 99.99% Uptime Deployment</li>
 											<li>• 200ms Average API Response Time</li>
 											<li>• 80% Reduction in human interaction</li>
 										</ul>
@@ -96,10 +97,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="190" width="170" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<rect x="210" y="190" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="105" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													prompt
+													Prompt
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													azure models
+													Azure models
 												</text>
 											</g>
 
@@ -107,7 +108,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="250" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="200" y="270" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													OPENAIsearch  Search
+													OPENAIsearch Search
 												</text>
 											</g>
 
@@ -150,7 +151,7 @@ export default function ProjectsSection() {
 											<ul className="space-y-2 text-sm text-gray-400">
 												<li>• promptFlow</li>
 												<li>•Azure model</li>
-												<li>• yaml files</li>
+												<li>• Yaml files</li>
 												<li>• Fast API</li>
 											</ul>
 										</div>
@@ -243,6 +244,123 @@ export default function ProjectsSection() {
 							</div>
 						</div>
 					</motion.div>
+
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
+						className="bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800"
+					>
+						<div className="p-8">
+							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+								<div className="space-y-6">
+									<div>
+										<h3 className="text-2xl font-bold mb-4">Product Search System</h3>
+										<p className="text-gray-400">
+										A scalable ML-powered search engine that transforms raw product names into high-dimensional embeddings using text-embedding-ada, stores them efficiently, and retrieves relevant matches using vector similarity with Azure Cognitive Search and FAISS.										</p>
+									</div>
+
+									<div className="grid grid-cols-2 gap-6">
+										<div>
+											<h4 className="text-sm font-semibold text-blue-400 mb-3">BackEnd Features</h4>
+											<ul className="space-y-2 text-sm text-gray-400">
+												<li>• Text Embedding with text-embedding-ada</li>
+												<li>• Azure Cognitive Search Integration</li>
+												<li>• FAISS Indexing</li>
+												<li>• File I/O with Dynamic Embedding Generation</li>
+											</ul>
+										</div>
+									</div>
+
+									<div className="space-y-3">
+										<h4 className="text-sm font-semibold text-teal-400">Performance Metrics</h4>
+										<ul className="space-y-2 text-sm text-gray-400">
+											<li>• 98%+ Semantic Search Precision</li>
+											<li>• Sub-second Query Response</li>
+											<li>• Sub-300ms Retrieval Latency</li>
+										</ul>
+									</div>
+								</div>
+
+								<div className="bg-black/30 rounded-xl p-6">
+									<h4 className="text-sm font-semibold text-gray-400 mb-4">Data Flow Architecture</h4>
+									<div className="aspect-[4/3] bg-black/50 rounded-lg p-4">
+										<svg className="w-full h-full" viewBox="0 0 400 300">
+											{/* Data Sources */}
+											<g>
+												<rect x="20" y="20" width="110" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<rect x="145" y="20" width="110" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<rect x="270" y="20" width="110" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<text x="75" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													 Input File  
+												</text>
+												<text x="200" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													s3
+												</text>
+												<text x="325" y="40" textAnchor="middle" className="fill-gray-400 text-[12px]">
+												event trigger
+												</text>
+											</g>
+
+											{/* Event Processing */}
+											<g>
+												<rect x="20" y="80" width="360" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
+												<text x="200" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													 Generate Embeddings
+												</text>
+											</g>
+
+											{/* Processing Layer */}
+											<g>
+												<rect x="20" y="150" width="170" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
+												<rect x="210" y="150" width="170" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
+												<text x="105" y="175" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													FAISS + Cognitive 
+													</text>
+												<text x="295" y="175" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													 Product Query
+												</text>
+											</g>
+
+											{/* Storage Layer */}
+											<g>
+												<rect x="20" y="220" width="170" height="30" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<rect x="210" y="220" width="170" height="30" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
+												<text x="105" y="240" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Similarity Search 
+												</text>
+												<text x="295" y="240" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													 k=3
+
+												</text>
+											</g>
+
+											{/* API Layer */}
+											<g>
+												<rect x="20" y="270" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
+												<text x="200" y="290" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Response to API 
+												</text>
+											</g>
+
+											{/* Connection Lines */}
+											<g className="stroke-gray-600" strokeWidth="1">
+												<line x1="75" y1="50" x2="75" y2="80" />
+												<line x1="200" y1="50" x2="200" y2="80" />
+												<line x1="325" y1="50" x2="325" y2="80" />
+												<line x1="200" y1="120" x2="200" y2="150" />
+												<line x1="105" y1="190" x2="105" y2="220" />
+												<line x1="295" y1="190" x2="295" y2="220" />
+												<line x1="200" y1="250" x2="200" y2="270" />
+											</g>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						</motion.div>
+
+
 				</div>
 			</div>
 		</section>
